@@ -50,7 +50,7 @@ async getuseraccount(){
     }
     }catch(error){
      console.error("Error getting user account:", error);
-     throw error;    
+        
      }
 }
 async logout(){
